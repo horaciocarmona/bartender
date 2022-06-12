@@ -780,21 +780,21 @@ header h1 span{
 
  @keyframes tituloAnimacion{
     0%{
-        background-color: rgb(159, 157, 157);
+        background-color: rgb(180, 178, 178);
     }
     25%{
-        background-color: rgb(168, 167, 167);
+        background-color: rgb(190, 178, 178);
     }
     50%{
-        background-color: rgb(120, 120, 120);
+        background-color: rgb(200, 178, 178);
     }
 
     75%{
-        background-color: rgb(104, 103, 103);
+        background-color: rgb(210, 178, 178);
     }
 
     100%{
-        background-color: rgb(125, 124, 124);
+        background-color: rgb(220, 178, 178);
     }
 
 }   
