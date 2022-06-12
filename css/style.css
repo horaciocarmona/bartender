@@ -9,6 +9,9 @@ header h1 span{
     margin: 20px ;
     padding-bottom: 5px;
     padding-left: 5px;
+    animation-name: girando;
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;   
 }
 
 
@@ -134,6 +137,9 @@ header h1 span{
 .tituloPrincipal{
     grid-area: tituloPrincipal;
     background-color: rgb(171, 166, 166);
+    animation-name: tituloAnimacion;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 .tituloPrincipal:hover{
@@ -777,4 +783,93 @@ header h1 span{
     color: white;
 }
 
-    
+ @keyframes tituloAnimacion{
+    0%{
+        background-color: rgb(180, 178, 178);
+    }
+    25%{
+        background-color: rgb(190, 178, 178);
+    }
+    50%{
+        background-color: rgb(200, 178, 178);
+    }
+
+    75%{
+        background-color: rgb(210, 178, 178);
+    }
+
+    100%{
+        background-color: rgb(220, 178, 178);
+    }
+
+}   
+
+@keyframes girando{
+    0% {
+        transform:rotatex(0deg)
+    }
+    5% {
+        transform:rotatex(20deg)
+    }
+
+    10% {
+        transform:rotatex(40deg)
+    }
+
+    15% {
+        transform:rotatex(60deg)
+
+    }
+    20% {
+        transform:rotatex(80deg)
+    }
+
+    25% {
+        transform:rotatex(100deg)
+    }
+    30% {
+        transform:rotatex(120deg)
+    }
+    35% {
+        transform:rotatex(140deg)
+    }
+    40% {
+        transform:rotatex(160deg)
+    }
+    45% {
+        transform:rotatex(180deg)
+    }
+
+    50% {
+        transform:rotatex(200deg)
+    }
+
+    60% {
+        transform:rotatex(220deg)
+    }
+    65% {
+        transform:rotatex(240deg)
+    }
+    70% {
+        transform:rotatex(260deg)
+    }
+    75% {
+        transform:rotatex(280deg)
+    }
+    80% {
+        transform:rotatex(300deg)
+    }
+    85% {
+        transform:rotatex(320deg)
+    }
+    90% {
+        transform:rotatex(340deg)
+    }
+    95% {
+        transform:rotatex(360deg)
+    }
+    100% {
+        transform:rotatex(380deg)
+    }
+
+}
