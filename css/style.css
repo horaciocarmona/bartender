@@ -9,6 +9,9 @@ header h1 span{
     margin: 20px ;
     padding-bottom: 5px;
     padding-left: 5px;
+    animation-name: girando;
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;   
 }
 
 
@@ -795,3 +798,73 @@ header h1 span{
     }
 
 }   
+
+@keyframes girando{
+    0% {
+        transform:rotatex(0deg)
+    }
+    5% {
+        transform:rotatex(20deg)
+    }
+
+    10% {
+        transform:rotatex(40deg)
+    }
+
+    15% {
+        transform:rotatex(60deg)
+
+    }
+    20% {
+        transform:rotatex(80deg)
+    }
+
+    25% {
+        transform:rotatex(100deg)
+    }
+    30% {
+        transform:rotatex(120deg)
+    }
+    35% {
+        transform:rotatex(140deg)
+    }
+    40% {
+        transform:rotatex(160deg)
+    }
+    45% {
+        transform:rotatex(180deg)
+    }
+
+    50% {
+        transform:rotatex(200deg)
+    }
+
+    60% {
+        transform:rotatex(220deg)
+    }
+    65% {
+        transform:rotatex(240deg)
+    }
+    70% {
+        transform:rotatex(260deg)
+    }
+    75% {
+        transform:rotatex(280deg)
+    }
+    80% {
+        transform:rotatex(300deg)
+    }
+    85% {
+        transform:rotatex(320deg)
+    }
+    90% {
+        transform:rotatex(340deg)
+    }
+    95% {
+        transform:rotatex(360deg)
+    }
+    100% {
+        transform:rotatex(380deg)
+    }
+
+}
