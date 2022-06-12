@@ -284,6 +284,12 @@ header h1 span{
 
 }
 
+.imagenCoctelGinTonic p:hover{
+    animation: girando;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+}
+
 .imagenCoctelKirRoyal { 
     grid-area: imagenCoctelKirRoyal; 
     background-image: url( "../img/KirRoyal.jpg");
@@ -304,6 +310,12 @@ header h1 span{
     padding: 10px;
 }
  
+.imagenCoctelKirRoyal p:hover{
+    animation: girando;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+}
+
 .imagenCoctelFitzgerald {
      grid-area: imagenCoctelFitzgerald; 
      background-image: url( "../img/Fitzgerald.jpg");
@@ -324,6 +336,13 @@ header h1 span{
 
 }
 
+.imagenCoctelFitzgerald p:hover{
+    animation: girando;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+}
+ 
+ 
 .imagenBebida{
     margin-top: 10px ;
     width: 100px;
