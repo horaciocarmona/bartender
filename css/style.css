@@ -136,6 +136,11 @@ header h1 span{
     background-color: rgb(171, 166, 166);
 }
 
+.tituloPrincipal:hover{
+    transition: 2s;
+    background-color: rgb(243, 126, 126);
+}
+
 .tituloPrincipal h5{
     margin-top: 30px;
     margin-left: 30vw;
