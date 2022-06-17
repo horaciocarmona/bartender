@@ -15,6 +15,8 @@
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/style.css">
 
@@ -22,28 +24,49 @@
 </head>
 
 <body class="body">
-    <div class="gridIndex">
+    <!-- <div class="gridIndex">  -->
+<!-- edl gridindex se va a usar en otra parte de esta pagina -->
+        <div>
+
         <!-- Encabezado -->
-        <header class="headerflex">
-            <!-- Fila con logo mas nav -->
-            <h1 class="h1flex">
-                <!-- LOGO  -->
-                <a href="./index.html" class="logo"></a>
-                <img src="./img/logobartender.png" alt="logo periodico">
-                <span>Bartender</span>
-            </h1>
-            <nav>
-                <ul class="menuflex">
-                    <li>Bartender</li>
-                    <li><a href="./cocteles.html">COCTELES</a></li>
-                    <li><a href="./bebidas.html">BEBIDAS</a></li>
-                    <li><a href="./accesorios.html">ACCESORIOS</a></li>
-                    <li><a href="./contacto.html">CONTACTO</a></li>
-
-                </ul>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Bartender</a>
+                    <nav class="navbar">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">
+                                <img src="./img/bartender2-removebg-preview.png" alt="" width="40" height="40">
+                            </a>
+                        </div>
+                    </nav>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#carouselExampleCaptions">Cocteles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#bebidas">Bebidas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#accesorios">Accesorios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
-            <!-- Fin de logo mas nav -->
-
+    
         </header>
         <!-- Fin de Encabezado -->
         <!-- Principal  -->
@@ -115,6 +138,10 @@
         </footer>
         <!-- Fin de pie de pagina -->
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
 </body>
 
 </html>

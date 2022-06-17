@@ -1058,6 +1058,16 @@ header h1 span{
     color: white;
 }
 
+.container-fluid{
+    background-color: rgb(146, 146, 163);
+    /* height: 7vh; */
+}
+
+.container-fluid a{
+    color: bisque ;
+}
+
+
  @keyframes tituloAnimacion{
     0%{
         background-color: rgb(180, 178, 178);
