@@ -1,49 +1,48 @@
 /* resetea todos los parametros */
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-header h1 span{ 
+/* header h1 span{ 
     margin: 20px ;
     padding-bottom: 5px;
     padding-left: 5px;
     animation-name: girando;
     animation-duration: 5s; 
     animation-iteration-count: infinite;   
-}
+} */
 
-
-.negrita{
+.negrita {
     color: black;
     font-size: 25px;
     /* font-style: italic;     */
 }
 
-.block{
+.block {
     color: rgb(251, 171, 171);
     border: 3px black;
     margin: 50px;
     padding: 20px;
 }
 
-.inline{
+.inline {
     background-color: blueviolet;
     border: solid 3px black;
     margin: 20px;
     padding: 10px;
 }
 
-.pruebaEnBloque{
+.pruebaEnBloque {
     display: inline;
 }
 
-.pruebaEnLinea{
+.pruebaEnLinea {
     display: block;
 }
 
-.inline-block{
+.inline-block {
     background-color: chartreuse;
     color: black;
     display: inline-block;
@@ -51,90 +50,92 @@ header h1 span{
     height: 30px;
 }
 
-.relative{
+.relative {
     position: relative;
     width: 600;
     left: 2px;
     right: 20;
 }
 
-.absolute{
+.absolute {
     position: absolute;
     left: 100px;
 }
 
-.footerflex{
-    flex-wrap: wrap;
+.footerflex {
     grid-area: footerflex;
-    display: flex;    
+    flex-wrap: wrap;
+    display: flex;
     color: blue;
-    /* background-color: cadetblue; */
-    background-image: linear-gradient(to right,rgb(233, 181, 181) ,blue);
-    height: 20vh;
-    max-height: 50vh;
+    background-color: rgb(146, 146, 163);
+    /* background-image: linear-gradient(to right,rgb(233, 181, 181) ,blue); */
+    /* height: 20vh; */
+    /* max-height: 50vh; */
     /* width: 1fr; */
     flex-direction: row;
     justify-items: center;
-    /* justify-content: space-between; */
-
+    justify-content: flex-start;
 }
 
-
-.footerflex h2 img{
+.footerflex h2 img {
     max-width: 50px;
     max-height: 50px;
     /* display: inline-block; */
-    margin: 5px ;
+    margin: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
     background-color: brown;
 }
 
-.footerflex span{
+.footerflex span {
     margin: 10px;
-    width: 20vw;
+    max-width: 20vw;
     font-size: small;
 }
 
-.footerflex ol{
+.footerflex ol {
     max-width: 20vw;
     margin: 10px;
-    margin-left: 40px; 
+    margin-left: 40px;
 }
 
 
 
-.imagenBebidas{
+.imagenBebidas {
     grid-area: imagenBebidas;
     margin: 20px;
 }
 
-.imagenBebidas p{
+.imagenBebidas p {
     background-color: brown;
-    color:rgb(243, 243, 166);
+    color: rgb(240, 240, 93);
+    padding-left: 1rem;
+
 }
 
-.imagenBebidas img{
-     width: 60vw; 
-     /* height: 100%; */
+.imagenBebidas img {
+    width: 60vw;
+    /* height: 100%; */
 }
 
-.gridIndexButton{
-      width: 10rem;
-      height: 2rem;
-      margin: 2rem;
-      background-color: darkgray;
-      transform: skew(-10deg);
-      transition: 3s;
+.gridIndexButton {
+    max-width: 20vw;
+    max-height: 10vw;
+    padding: 10px;
+    margin: 1rem;
+    font-size: small;
+    background-color: darkgray;
+    transform: skew(-10deg);
+    transition: 3s;
 }
 
-.gridIndexButton:hover{
-    background-color: rgb(234, 163, 57);
+.gridIndexButton:hover {
+    background-color: rgb(241, 241, 127);
     transform: scale(1.2);
     transition: 1s;
 }
 
-.tituloPrincipal{
+.tituloPrincipal {
     grid-area: tituloPrincipal;
     background-color: rgb(171, 166, 166);
     animation-name: tituloAnimacion;
@@ -143,94 +144,97 @@ header h1 span{
     max-width: 100vw;
 }
 
-.tituloPrincipal:hover{
+.tituloPrincipal:hover {
     transition: 2s;
     background-color: rgb(243, 126, 126);
 }
 
-.tituloPrincipal h5{
-    margin-top: 30px;
-    margin-left: 300px;
+.tituloPrincipal h5 {
+    margin-top: 10px;
+    margin-left: 22vw;
     font-size: 30px;
-    width: 100vw;
+    width: 60vw;
 }
 
- .tituloPrincipal h6{
-    margin-left: 200px;
-    /* margin-left: 20px; */
+.tituloPrincipal h6 {
+    margin-left: 100px;
+    margin-left: 10vw;
     font-size: 20px;
     margin-bottom: 20px;
-    width: 100vw;
+    width: 80vw;
 }
 
- .textoBebidas{
+.textoBebidas {
     /* display: inline-block; */
     grid-area: textoBebidas;
     max-width: 40vw;
-    margin: 10px;
+    margin-top: 5vh;
     align-self: start;
-}    
+}
 
-.textoBebidas p{
+.textoBebidas p {
     /* display: inline-block; */
-    margin-top: 170px;
+    margin-top: 5vw;
+    padding-left: 1rem;
     color: rgb(236, 236, 119);
-    margin-bottom: 20px;
-    font-size:x-large;
+    /* margin-bottom: 20px; */
+    font-size: x-large;
     /* font-family: 'Are You Serious', cursive; */
     font-family: 'Dancing Script', cursive;
+
 }
 
 
-.imagenAccesorios img{
-    width: 60vw; 
+.imagenAccesorios img {
+    width: 60vw;
     height: 500px;
 
 }
 
-.imagenAccesorios{
+.imagenAccesorios {
     grid-area: imagenAccesorios;
     margin: 20px;
 }
 
-.imagenAccesorios p{
+.imagenAccesorios p {
     background-color: brown;
-    color: white;
+    color: rgb(240, 240, 93);
+    padding-left: 1rem;
 
 }
 
-.textoAccesorios{
+.textoAccesorios {
     grid-area: textoAccesorios;
     max-width: 40vw;
     margin: 10px;
     align-self: start;
-}    
+}
 
-.textoAccesorios p{
-    margin-top: 100px;
+.textoAccesorios p {
+    margin-top: 30px;
     color: rgb(236, 236, 119);
-    font-size:x-large;
-    font-family: 'Dancing Script', cursive;    
+    font-size: x-large;
+    font-family: 'Dancing Script', cursive;
     /* font-family: 'Are You Serious', cursive; */
 }
 
-.imagenAccesoriosProducto{
+.imagenAccesoriosProducto {
     /* display: inline-block; */
-    background-color: red;    
+    background-color: red;
 }
 
-.imagenAccesoriosProducto img{
+.imagenAccesoriosProducto img {
     max-width: 250px;
     max-height: 150px;
 }
 
-.textoAccesoriosProducto{
-    display: inline-block; 
+.textoAccesoriosProducto {
+    display: inline-block;
     max-width: 80px;
     margin: 10px;
-}    
+}
 
-.menuflex{
+.menuflex {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -239,14 +243,14 @@ header h1 span{
     width: 1fr;
 }
 
-.menuflex li{
-    list-style:none;
-    background-color:rgb(154, 154, 247);
+.menuflex li {
+    list-style: none;
+    background-color: rgb(154, 154, 247);
     padding: 10px;
     border: black double 3px;
 }
 
-.menuflex li a{
+.menuflex li a {
     text-decoration: double;
     text-transform: lowercase;
     color: white;
@@ -254,19 +258,20 @@ header h1 span{
 
 }
 
-.menuflex a:hover{
+.menuflex a:hover {
     color: red;
 }
 
-.table{
-    max-width: 300px;
-    height: 50px;
+.table {
+    max-width: 100px;
+    /* max-height: 5px;  */
     margin: 10px;
+    font-size: 15px;
 }
 
-.imagenCoctelGinTonic{
-    grid-area: imagenCoctelGinTonic; 
-    background-image: url( "../img/GinTonic.jpg");
+.imagenCoctelGinTonic {
+    grid-area: imagenCoctelGinTonic;
+    background-image: url("../img/GinTonic.jpg");
     background-size: cover;
     height: 220vh;
     margin: 10px;
@@ -274,254 +279,253 @@ header h1 span{
 }
 
 
-.imagenCoctelGinTonic p{
+.imagenCoctelGinTonic p {
     max-width: 50vw;
     color: rgb(113, 113, 243);
     font-style: italic;
-    font-size:x-large;
-    margin: 10vw;   
+    font-size: x-large;
+    margin: 10vw;
     /* background: rgba(34, 32, 32, 0.1); */
-    background-color:rgba(50, 14, 31, 0.5);
+    background-color: rgba(50, 14, 31, 0.5);
     padding: 10px;
     /* opacity: 4; */
 
 }
 
-.imagenCoctelGinTonic p:hover{
+.imagenCoctelGinTonic p:hover {
     animation: girando;
     animation-duration: 3s;
     animation-iteration-count: initial;
 }
 
-.imagenCoctelKirRoyal { 
-    grid-area: imagenCoctelKirRoyal; 
-    background-image: url( "../img/KirRoyal.jpg");
+.imagenCoctelKirRoyal {
+    grid-area: imagenCoctelKirRoyal;
+    background-image: url("../img/KirRoyal.jpg");
     background-size: cover;
     height: 220vh;
     margin: 10px;
 
 }
 
-.imagenCoctelKirRoyal p{
-    width: 50vw; 
+.imagenCoctelKirRoyal p {
+    width: 50vw;
     color: rgb(113, 113, 243);
     font-style: italic;
-    font-size:x-large;
-    margin: 10vw;   
-    background-color:rgba(50, 14, 31, 0.5);
+    font-size: x-large;
+    margin: 10vw;
+    background-color: rgba(50, 14, 31, 0.5);
 
     padding: 10px;
 }
- 
-.imagenCoctelKirRoyal p:hover{
+
+.imagenCoctelKirRoyal p:hover {
     animation: girando;
     animation-duration: 3s;
     animation-iteration-count: initial;
 }
 
 .imagenCoctelFitzgerald {
-     grid-area: imagenCoctelFitzgerald; 
-     background-image: url( "../img/Fitzgerald.jpg");
-     background-size: cover;
-     height: 220vh;
-     margin: 10px;
- 
-}
-  
-.imagenCoctelFitzgerald p{
-   width: 50vw; 
-   color: rgb(113, 113, 243);
-   font-style: italic;
-   font-size:x-large;
-   margin: 10vw;   
-   background-color:rgba(50, 14, 31, 0.5);
-   padding: 10px;
+    grid-area: imagenCoctelFitzgerald;
+    background-image: url("../img/Fitzgerald.jpg");
+    background-size: cover;
+    height: 220vh;
+    margin: 10px;
 
 }
 
-.imagenCoctelFitzgerald p:hover{
+.imagenCoctelFitzgerald p {
+    width: 50vw;
+    color: rgb(113, 113, 243);
+    font-style: italic;
+    font-size: x-large;
+    margin: 10vw;
+    background-color: rgba(50, 14, 31, 0.5);
+    padding: 10px;
+
+}
+
+.imagenCoctelFitzgerald p:hover {
     animation: girando;
     animation-duration: 3s;
     animation-iteration-count: initial;
 }
- 
- 
-.imagenBebida{
-    margin-top: 10px ;
+
+
+.imagenBebida {
+    margin-top: 10px;
     width: 100px;
-    display: inline-block; 
-        
+    display: inline-block;
+
 }
 
-.imagenBebida img{
+.imagenBebida img {
     width: 5vw;
     height: 40vh;
 }
 
-.textoBebida{
-    display: inline-block; 
+.textoBebida {
+    display: inline-block;
     max-width: 80px;
     margin: 20px;
     /* margin-right: 180px; */
 }
 
 
-.sectionFlex{
+.sectionFlex {
     display: flex;
-    width:900px;
+    width: 900px;
 }
 
-.sectionFlexAccesorioProducto{
+.sectionFlexAccesorioProducto {
     display: flex;
     width: 950px;
     margin: 10px;
 }
 
-.main form p{
+.main form p {
     color: blue;
 }
- 
-.headerflex{
-      grid-area: headerflex;
-      display: flex;
-      justify-content:space-between;
-      color: blue;
-      /* height: 15vh; */
-      /* Uso de Gradiente */
-      background-image: linear-gradient(to right,rgb(233, 181, 181) ,blue);
-      align-items: center;
-    }
 
-.h1flex{
-    display: flex ;
+.headerflex {
+    grid-area: headerflex;
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    /* height: 15vh; */
+    /* Uso de Gradiente */
+    background-image: linear-gradient(to right, rgb(233, 181, 181), blue);
+    align-items: center;
+}
+
+.h1flex {
+    display: flex;
     flex-direction: row;
     /* max-height: 10vh; */
     margin-left: 10px;
     align-items: center;
 }
 
-.h1flex img{
+.h1flex img {
     max-width: 50px;
     max-height: 50px;
     /* display: inline-block; */
-    margin: 5px ;
+    margin: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
     background-color: brown;
 }
 
-.h1flex a img{
+.h1flex a img {
     max-width: 50px;
     max-height: 50px;
     /* display: inline-block; */
-    margin: 5px ;
+    margin: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
     background-color: brown;
 }
 
-.gridIndex{
-    display: grid; 
-    width: 100vw;
+.gridIndex {
+    display: grid;
+    /* width: 100vw; */
     /* width: 4fr;  */
     background-color: rgb(163, 163, 204);
     align-items: center;
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 0.1fr 0.1fr 1fr 1fr 0.1fr; 
-    grid-template-areas: 
-      "headerflex headerflex"
-      "tituloPrincipal tituloPrincipal"  
-      "imagenBebidas textoBebidas"
-      "imagenAccesorios textoAccesorios"
-      "footerflex footerflex"; 
- }
-  
-.gridCoctel{
-    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.8fr 0.1fr;
+    grid-template-areas:
+        "tituloPrincipal tituloPrincipal"
+        "imagenBebidas textoBebidas"
+        "imagenAccesorios textoAccesorios"
+        "footerflex footerflex";
+}
+
+.gridCoctel {
+    display: grid;
     background-color: rgb(163, 163, 204);
     align-items: center;
-    grid-template-columns: 1fr; 
-    grid-template-rows: 0.01fr 1fr 1fr 1fr 0.01fr; 
-    grid-template-areas: 
-      "headerflex"
-      "imagenCoctelGinTonic"
-      "imagenCoctelKirRoyal"
-      "imagenCoctelFitzgerald"
-      "footerflex"; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.01fr 1fr 1fr 1fr 0.01fr;
+    grid-template-areas:
+        "headerflex"
+        "imagenCoctelGinTonic"
+        "imagenCoctelKirRoyal"
+        "imagenCoctelFitzgerald"
+        "footerflex";
 }
 
 
-  .gridBebidasVenta{
-    display: grid; 
+.gridBebidasVenta {
+    display: grid;
     background-color: rgb(163, 163, 204);
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr ; 
-    grid-template-rows: 0.1fr 1fr 1fr 0.1fr; 
-    grid-template-areas: 
-      "headerflex headerflex headerflex headerflex"
-      "imagenCampari imagenPuertoIndias imagenBramble imagenCapel "
-      "imagenNegroni imagenHeraclito imagenJackDaniels imagenRonAvana "
-      "footerflex footerflex footerflex footerflex"; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
+    grid-template-areas:
+        "headerflex headerflex headerflex headerflex"
+        "imagenCampari imagenPuertoIndias imagenBramble imagenCapel "
+        "imagenNegroni imagenHeraclito imagenJackDaniels imagenRonAvana "
+        "footerflex footerflex footerflex footerflex";
 
-} 
+}
 
-.imagenCampari{
-    grid-area: imagenCampari; 
+.imagenCampari {
+    grid-area: imagenCampari;
     width: 5vw;
     /* height: 40vh; */
 }
 
-.textoCampari{ 
+.textoCampari {
     max-width: 80px;
     margin: 20px;
 }
 
-.imagenPuertoIndias{
-     grid-area: imagenPuertoIndias; 
-     width: 5vw;
-     /* height: 40vh; */
+.imagenPuertoIndias {
+    grid-area: imagenPuertoIndias;
+    width: 5vw;
+    /* height: 40vh; */
 }
 
-.textoPuertoIndias{ 
+.textoPuertoIndias {
     max-width: 80px;
     margin: 20px;
 }
 
-.imagenBramble{
-     grid-area: imagenBramble;
-     width: 5vw;
-     /* height: 40vh; */
+.imagenBramble {
+    grid-area: imagenBramble;
+    width: 5vw;
+    /* height: 40vh; */
 }
 
-.textoBramble{
+.textoBramble {
     max-width: 80px;
     margin: 20px;
 
 }
 
-.imagenCapel{
-     grid-area: imagenCapel;
-     width: 5vw;
-     /* height: 40vh; */
+.imagenCapel {
+    grid-area: imagenCapel;
+    width: 5vw;
+    /* height: 40vh; */
 }
 
-.textoCapel{ 
+.textoCapel {
     max-width: 80px;
     margin: 20px;
 }
 
-.imagenNegroni{ 
+.imagenNegroni {
     grid-area: imagenNegroni;
     width: 10px;
     /* height: 40vh; */
 }
 
-.imagenNegroni img{ 
+.imagenNegroni img {
     width: 15vw;
     height: 40vh;
 }
 
-.textoNegroni{
+.textoNegroni {
     max-width: 80px;
     margin: 20px;
 }
@@ -533,294 +537,300 @@ header h1 span{
 }
 
 .textoHeraclito {
-     max-width: 80px;
-     margin: 20px;
+    max-width: 80px;
+    margin: 20px;
 }
 
 .imagenRonAvana {
-       grid-area: imagenRonAvana;
-       width: 5vw;
-       /* height: 40vh; */
+    grid-area: imagenRonAvana;
+    width: 5vw;
+    /* height: 40vh; */
 }
 
-.imagenRonAvana img{
+.imagenRonAvana img {
     width: 15vw;
     height: 40vh;
 }
 
 .textoRonAvana {
-     max-width: 80px;
-     margin: 20px;
+    max-width: 80px;
+    margin: 20px;
 }
 
 .imagenJackDaniels {
-     grid-area: imagenJackDaniels;
-     width: 5vw;
-     /* height: 40vh; */
+    grid-area: imagenJackDaniels;
+    width: 5vw;
+    /* height: 40vh; */
 }
 
-.imagenJackDaniels img{
+.imagenJackDaniels img {
     width: 15vw;
     height: 40vh;
 
 }
 
 .textoJackDaniels {
-     max-width: 80px;
-     margin: 20px;
+    max-width: 80px;
+    margin: 20px;
 }
 
-.gridAccesoriosVenta{
-    display: grid; 
+.gridAccesoriosVenta {
+    display: grid;
     background-color: rgb(163, 163, 204);
     align-items: center;
-    grid-template-columns: 1.2fr 0.8fr 1.2fr 0.8fr 1.2fr 0.8fr ; 
-    grid-template-rows: 0.1fr 1fr 1fr 0.1fr; 
-    grid-template-areas: 
-      "headerflex headerflex headerflex headerflex headerflex headerflex "
-      "imagenCopasCristal textoCopasCristal imagenCoctelera textoCoctelera imagenSetBoston textoSetBoston "
-      "imagenBarraCoctelera textoBarraCoctelera imagenPortadorCoctel textoPortadorCoctel imagenSetDeluxe textoSetDeluxe "
-      "footerflex footerflex footerflex footerflex footerflex footerflex "; 
+    grid-template-columns: 1.2fr 0.8fr 1.2fr 0.8fr 1.2fr 0.8fr;
+    grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
+    grid-template-areas:
+        "headerflex headerflex headerflex headerflex headerflex headerflex "
+        "imagenCopasCristal textoCopasCristal imagenCoctelera textoCoctelera imagenSetBoston textoSetBoston "
+        "imagenBarraCoctelera textoBarraCoctelera imagenPortadorCoctel textoPortadorCoctel imagenSetDeluxe textoSetDeluxe "
+        "footerflex footerflex footerflex footerflex footerflex footerflex ";
 
-} 
+}
 
-.imagenCopasCristal{
-    grid-area: imagenCopasCristal; 
+.imagenCopasCristal {
+    grid-area: imagenCopasCristal;
     width: 5vw;
     /* height: 40vh; */
 }
 
-.imagenCopasCristal img{
-    width: 20vw; 
-    height: 40vh; 
+.imagenCopasCristal img {
+    width: 20vw;
+    height: 40vh;
     margin-left: 5px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.textoCopasCristal{ 
-    grid-area: textoCopasCristal; 
+.textoCopasCristal {
+    grid-area: textoCopasCristal;
     max-width: 80px;
     margin: 20px;
 }
 
-.imagenCoctelera{
-    grid-area: imagenCoctelera; 
+.imagenCoctelera {
+    grid-area: imagenCoctelera;
     width: 5vw;
     /* height: 40vh; */
 }
 
-.imagenCoctelera img{
-    width: 20vw; 
-    height: 40vh; 
-    margin-left: 5px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-
-}
-
-.textoCoctelera{ 
-    grid-area: textoCoctelera; 
-    max-width: 80px;
-    margin: 20px;
-}
-
-.imagenSetBoston{
-    grid-area: imagenSetBoston; 
-    width: 5vw;
-    /* height: 40vh; */
-}
-
-.imagenSetBoston img{
-    width: 20vw; 
-    height: 40vh; 
-    margin-top: 40px;
-    margin-bottom: 40px;
-
-}
-
-.textoSetBoston{ 
-    grid-area: textoSetBoston; 
-    max-width: 80px;
-    margin: 20px;
-}
-
-.imagenBarraCoctelera{
-    grid-area: imagenBarraCoctelera; 
-    width: 5vw;
-    /* height: 40vh; */
-}
-
-.imagenBarraCoctelera img{
-    width: 20vw; 
-    height: 40vh; 
+.imagenCoctelera img {
+    width: 20vw;
+    height: 40vh;
     margin-left: 5px;
     margin-top: 40px;
     margin-bottom: 40px;
 
 }
 
-.textoBarraCoctelera{ 
-    grid-area: textoBarraCoctelera; 
+.textoCoctelera {
+    grid-area: textoCoctelera;
     max-width: 80px;
     margin: 20px;
 }
 
-.imagenPortadorCoctel{
-    grid-area: imagenPortadorCoctel; 
+.imagenSetBoston {
+    grid-area: imagenSetBoston;
     width: 5vw;
     /* height: 40vh; */
 }
 
-.imagenPortadorCoctel img{
-    width: 20vw; 
-    height: 40vh; 
+.imagenSetBoston img {
+    width: 20vw;
+    height: 40vh;
     margin-top: 40px;
     margin-bottom: 40px;
 
 }
 
-.textoPortadorCoctel{ 
-    grid-area: textoPortadorCoctel; 
+.textoSetBoston {
+    grid-area: textoSetBoston;
     max-width: 80px;
     margin: 20px;
 }
 
-.imagenSetDeluxe{
-    grid-area: imagenSetDeluxe; 
+.imagenBarraCoctelera {
+    grid-area: imagenBarraCoctelera;
     width: 5vw;
     /* height: 40vh; */
 }
 
-.imagenSetDeluxe img{
-    width: 20vw; 
-    height: 40vh; 
+.imagenBarraCoctelera img {
+    width: 20vw;
+    height: 40vh;
+    margin-left: 5px;
     margin-top: 40px;
     margin-bottom: 40px;
 
 }
 
-.textoSetDeluxe{ 
-    grid-area: textoSetDeluxe; 
+.textoBarraCoctelera {
+    grid-area: textoBarraCoctelera;
     max-width: 80px;
     margin: 20px;
 }
 
-.gridContacto{
-    display: grid; 
+.imagenPortadorCoctel {
+    grid-area: imagenPortadorCoctel;
+    width: 5vw;
+    /* height: 40vh; */
+}
+
+.imagenPortadorCoctel img {
+    width: 20vw;
+    height: 40vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.textoPortadorCoctel {
+    grid-area: textoPortadorCoctel;
+    max-width: 80px;
+    margin: 20px;
+}
+
+.imagenSetDeluxe {
+    grid-area: imagenSetDeluxe;
+    width: 5vw;
+    /* height: 40vh; */
+}
+
+.imagenSetDeluxe img {
+    width: 20vw;
+    height: 40vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.textoSetDeluxe {
+    grid-area: textoSetDeluxe;
+    max-width: 80px;
+    margin: 20px;
+}
+
+.gridContacto {
+    display: grid;
     background-color: rgb(163, 163, 204);
     align-items: center;
-    grid-template-columns: 1fr; 
-    grid-template-rows: 0.1fr 1fr 0.1fr; 
-    grid-template-areas: 
-      "headerflex"
-      "formulario"
-      "footerflex"; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas:
+        "headerflex"
+        "formulario"
+        "footerflex";
 }
 
-.formulario{
-    grid-area: formulario; 
+.formulario {
+    grid-area: formulario;
     display: flex;
     max-width: 1fr;
     margin: 20px;
 }
 
 
-.formulario input{
-   color: rgb(32, 32, 16);
-   border-radius: 15px; 
-   text-align: center;
+.formulario input {
+    color: rgb(32, 32, 16);
+    border-radius: 15px;
+    text-align: center;
 }
 
-.formulario input[type=submit]:hover{
+.formulario input[type=submit]:hover {
     background-color: rgb(238, 153, 153);
 }
 
-.formulario input[type=submit]{
+.formulario input[type=submit] {
     margin-top: 20px;
 }
 
-.formulario input[type=reset]:hover{
+.formulario input[type=reset]:hover {
     background-color: rgb(243, 165, 165);
 }
 
-.formulario input[type=text]:focus{
+.formulario input[type=text]:focus {
     width: 300px;
     background-color: rgb(189, 189, 159);
 }
 
-.formulario input[type=email]:focus{
+.formulario input[type=email]:focus {
     width: 300px;
     background-color: rgb(189, 189, 159);
 }
 
-.formulario h3{
+.formulario h3 {
     margin: 5vw;
     max-width: 90vw;
 }
 
-.formulario label p{
+.formulario label p {
     margin: 10px;
     /* max-width: 5vw; */
 }
-.formulario textarea{
+
+.formulario textarea {
     max-width: 60vw;
 }
 
-.formulario label span{
+.formulario label span {
     margin: 10px;
 }
 
 
-.formulario p{
+.formulario p {
     margin: 10px;
     max-width: 90vw;
 }
 
 @media(max-width:460px) {
-    .gridIndex{
+    .gridIndex {
         background-color: brown;
     }
-    
-    .imagenBebidas img{
-        width: 50vw; 
+
+    .imagenBebidas img {
+        width: 50vw;
         height: 50vw;
     }
 
-    .imagenAccesorios img{
-        width: 50vw; 
+    .imagenAccesorios img {
+        width: 50vw;
         height: 50vw;
     }
+
     .textoBebidas {
         max-width: 30vw;
     }
-    .textoBebidas p{
-        margin-top: 60px;
-        color: rgb(240, 240, 93);
-        font-size:10px;
-        font-family:sans-serif;
+
+    .textoBebidas p {
+        margin-top: 5vh;
+        /* color: rgb(240, 240, 93); */
+        font-size: 10px;
+        font-family: sans-serif;
     }
 
-    .textoAccesorios p{
+    .textoAccesorios p {
         margin-top: 70px;
         color: rgb(240, 240, 93);
-        font-size:10px;
-        font-family:sans-serif;
-    } 
-
-    .footerflex{
-        background-color: cadetblue;
-        height: 300px;
+        font-size: 10px;
+        font-family: sans-serif;
     }
 
-    .tituloPrincipal h5{
+    .footerflex {
+        background-color: rgb(146, 146, 163);
+    }
+
+    .footerflex span {
+        max-width: 100%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    .tituloPrincipal h5 {
         margin-top: 30px;
-        margin-left: 30px;
-        font-size: 20px;
-        width: 100vw;
+        margin-left: 15px;
     }
-    
-     .tituloPrincipal h6{
+
+    .tituloPrincipal h6 {
         margin-left: 5px;
         /* margin-left: 20px; */
         font-size: 10px;
@@ -828,333 +838,368 @@ header h1 span{
         width: 100vw;
     }
 
-    .gridIndexButton{
-        width: 5rem;
-        height: 3rem;
-        margin: 1rem;
+    .gridIndexButton {
+        /* width: 300px;  */
+        /* height: 3rem; */
+        /* margin: 1rem; */
+        padding-top: 0%;
         background-color: darkgray;
         transform: skew(-10deg);
         transition: 3s;
-  }
+        font-size: 9px;
+    }
 
- .imagenCoctelGinTonic{
-    grid-area: imagenCoctelGinTonic; 
-    background-image: url( "../img/GinTonic.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 70vh;
-    margin: 5px;
+    .imagenCoctelGinTonic {
+        grid-area: imagenCoctelGinTonic;
+        background-image: url("../img/GinTonic.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+        margin: 5px;
 
-}
+    }
 
-.imagenCoctelKirRoyal { 
-    grid-area: imagenCoctelKirRoyal; 
-    background-image: url( "../img/KirRoyal.jpg");
-    background-size:cover;
-    margin: 5px;
-    background-repeat: no-repeat;
-    height: 70vh;
+    .imagenCoctelKirRoyal {
+        grid-area: imagenCoctelKirRoyal;
+        background-image: url("../img/KirRoyal.jpg");
+        background-size: cover;
+        margin: 5px;
+        background-repeat: no-repeat;
+        height: 70vh;
 
-}
+    }
 
-.imagenCoctelFitzgerald {
-    grid-area: imagenCoctelFitzgerald; 
-    background-image: url( "../img/Fitzgerald.jpg");
-    background-size:cover;
-    margin: 5px;
-    background-repeat: no-repeat;
-    height: 70vh;
+    .imagenCoctelFitzgerald {
+        grid-area: imagenCoctelFitzgerald;
+        background-image: url("../img/Fitzgerald.jpg");
+        background-size: cover;
+        margin: 5px;
+        background-repeat: no-repeat;
+        height: 70vh;
 
-}
+    }
 
-.imagenCoctelFitzgerald p{
-    width: 90vw; 
-    color: rgb(113, 113, 243);
-    font-style: italic;
-    font-size: large;
-    background-color:rgba(50, 14, 31, 0.7);
+    .imagenCoctelFitzgerald p {
+        width: 90vw;
+        color: rgb(113, 113, 243);
+        font-style: italic;
+        font-size: large;
+        background-color: rgba(50, 14, 31, 0.7);
 
-    margin: 10px;   
-    padding: 2px;
-}
+        margin: 10px;
+        padding: 2px;
+    }
 
-.imagenCoctelKirRoyal p{
-    width: 90vw; 
-    color: rgb(113, 113, 243);
-    font-style: italic;
-    font-size: large;
-    margin: 10px;   
-    background-color:rgba(50, 14, 31, 0.7);
+    .imagenCoctelKirRoyal p {
+        width: 90vw;
+        color: rgb(113, 113, 243);
+        font-style: italic;
+        font-size: large;
+        margin: 10px;
+        background-color: rgba(50, 14, 31, 0.7);
 
-    padding: 2px;
-}
+        padding: 2px;
+    }
 
-.imagenCoctelGinTonic p{
-    max-width: 90vw;
-    color: rgb(113, 113, 243);
-    font-style: italic;
-    font-size: large;
-    margin: 10px;   
-    /* background: rgba(34, 32, 32, 0.1); */
-    background-color:rgba(50, 14, 31, 0.7);
-    padding: 2px;
-    /* opacity: 4; */
+    .imagenCoctelGinTonic p {
+        max-width: 90vw;
+        color: rgb(113, 113, 243);
+        font-style: italic;
+        font-size: large;
+        margin: 10px;
+        /* background: rgba(34, 32, 32, 0.1); */
+        background-color: rgba(50, 14, 31, 0.7);
+        padding: 2px;
+        /* opacity: 4; */
 
-}
+    }
 
-.gridCoctel{
-    display: grid; 
-    background-color: rgb(163, 163, 204);
-    align-items: center;
-    grid-template-columns: 1fr; 
-    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr; 
-    grid-template-areas: 
-      "headerflex"
-      "imagenCoctelGinTonic"
-      "imagenCoctelKirRoyal"
-      "imagenCoctelFitzgerald"
-      "footerflex"; 
-}
+    .gridCoctel {
+        display: grid;
+        background-color: rgb(163, 163, 204);
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+        grid-template-areas:
+            "headerflex"
+            "imagenCoctelGinTonic"
+            "imagenCoctelKirRoyal"
+            "imagenCoctelFitzgerald"
+            "footerflex";
+    }
 
-.gridBebidasVenta{
-    display: grid; 
-    background-color: rgb(243, 106, 106);
-    /* background-color: rgb(163, 163, 204); */
-    align-items: center;
-    grid-template-columns: 1fr 1fr  ; 
-    grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr 0.1fr; 
-    grid-template-areas: 
-      "headerflex headerflex "
-      "imagenCampari imagenPuertoIndias"
-      "imagenBramble imagenCapel "
-      "imagenNegroni imagenHeraclito"
-      "imagenJackDaniels imagenRonAvana "
-      "footerflex footerflex "; 
+    .gridBebidasVenta {
+        display: grid;
+        background-color: rgb(243, 106, 106);
+        /* background-color: rgb(163, 163, 204); */
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr 0.1fr;
+        grid-template-areas:
+            "headerflex headerflex "
+            "imagenCampari imagenPuertoIndias"
+            "imagenBramble imagenCapel "
+            "imagenNegroni imagenHeraclito"
+            "imagenJackDaniels imagenRonAvana "
+            "footerflex footerflex ";
 
-} 
+    }
 
-.imagenPuertoIndias img{
-    width: 25vw;
-    /* height: 100px; */
-}
+    .imagenPuertoIndias img {
+        width: 25vw;
+        /* height: 100px; */
+    }
 
-.imagenJackDaniels img{
-    width: 40vw;
-}
+    .imagenJackDaniels img {
+        width: 40vw;
+    }
 
-.imagenRonAvana img{
-    width: 40vw;
-}
+    .imagenRonAvana img {
+        width: 40vw;
+    }
 
-.imagenNegroni img{
-    width: 40vw;
-}
+    .imagenNegroni img {
+        width: 40vw;
+    }
 
-.imagenBramble img{
-    width: 25vw;
-}
+    .imagenBramble img {
+        width: 25vw;
+    }
 
-.imagenCampari img{
-    width: 25vw;
-    /* height: 40vh; */
-}
+    .imagenCampari img {
+        width: 25vw;
+        /* height: 40vh; */
+    }
 
-.imagenCapel img{
-    width: 25vw;
-}
+    .imagenCapel img {
+        width: 25vw;
+    }
 
-.imagenHeraclito img{
-    width: 25vw;
-}
+    .imagenHeraclito img {
+        width: 25vw;
+    }
 
-.gridAccesoriosVenta{
-    display: grid; 
-    background-color: rgb(243, 106, 106);
-    align-items: center;
-    grid-template-columns: 1fr; 
-    grid-template-rows: 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.1fr; 
-    grid-template-areas: 
-      "headerflex "
-      "imagenCopasCristal"
-      "textoCopasCristal"
-      "imagenCoctelera"
-      "textoCoctelera"
-      "imagenSetBoston"
-      "textoSetBoston "
-      "imagenBarraCoctelera"
-      "textoBarraCoctelera"
-      "imagenPortadorCoctel"
-      "textoPortadorCoctel"
-      "imagenSetDeluxe"
-      "textoSetDeluxe "
-      "footerflex "; 
+    .gridAccesoriosVenta {
+        display: grid;
+        background-color: rgb(243, 106, 106);
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.1fr;
+        grid-template-areas:
+            "headerflex "
+            "imagenCopasCristal"
+            "textoCopasCristal"
+            "imagenCoctelera"
+            "textoCoctelera"
+            "imagenSetBoston"
+            "textoSetBoston "
+            "imagenBarraCoctelera"
+            "textoBarraCoctelera"
+            "imagenPortadorCoctel"
+            "textoPortadorCoctel"
+            "imagenSetDeluxe"
+            "textoSetDeluxe "
+            "footerflex ";
 
-} 
-.imagenSetBoston img{
-    width: 100vw;
-    height: 60vh;
-    margin-bottom: 0%;
-    margin-top: 0%;
+    }
 
-}
+    .imagenSetBoston img {
+        width: 100vw;
+        height: 60vh;
+        margin-bottom: 0%;
+        margin-top: 0%;
 
-.imagenCoctelera img{
-    width: 100vw;
-    height: 60vh;
-    margin-bottom: 0%;
-    margin-top: 0%;
-}
+    }
 
-.imagenCopasCristal img{
-    width: 100vw;
-    height: 60vh;
-    margin-bottom: 0px;
+    .imagenCoctelera img {
+        width: 100vw;
+        height: 60vh;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
 
-}
+    .imagenCopasCristal img {
+        width: 100vw;
+        height: 60vh;
+        margin-bottom: 0px;
 
-.imagenBarraCoctelera img{
-    width: 100vw;
-    height: 60vh;
-    margin-bottom: 0%;
-    margin-top: 0%;
+    }
 
-}
+    .imagenBarraCoctelera img {
+        width: 100vw;
+        height: 60vh;
+        margin-bottom: 0%;
+        margin-top: 0%;
 
-.imagenPortadorCoctel img {
-    width: 100vw;
-    height: 60vh;
-    margin-bottom: 0%;
-    margin-top: 0%;
-}
+    }
 
-.imagenSetDeluxe img{
-    width: 100vw;
-    height: 60vh;
-    margin-bottom: 0%;
-    margin-top: 0%;
-}
+    .imagenPortadorCoctel img {
+        width: 100vw;
+        height: 60vh;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
 
-.gridContacto{
-    background-color: rgb(243, 106, 106);
-} 
-/* .textoCopasCristal{ 
+    .imagenSetDeluxe img {
+        width: 100vw;
+        height: 60vh;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+
+    .gridContacto {
+        background-color: rgb(243, 106, 106);
+    }
+
+    /* .textoCopasCristal{ 
     grid-area: textoCopasCristal; 
     max-width: 80px; 
     margin: 5px;
 } */
 
-header h1 span{ 
-    margin: 5px ;
-    padding-bottom: 5px;
-    padding-left: 1px;
-    animation-name: girando;
-    animation-duration: 5s; 
-    animation-iteration-count: infinite;   
+    header h1 span {
+        margin: 5px;
+        padding-bottom: 5px;
+        padding-left: 1px;
+        animation-name: girando;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    .negrita {
+        color: black;
+        font-size: 15px;
+        /* font-style: italic;     */
+    }
+    
 }
 
+/* fin de media query*/
+.navbar {
+    padding-bottom: 2px;
 }
 
-.footerflex  ol i{
+.footerflex ol i {
     color: white;
 }
 
-.container-fluid{
+
+.container-fluid {
     background-color: rgb(146, 146, 163);
     /* height: 7vh; */
 }
 
-.container-fluid a{
-    color: bisque ;
+.container-fluid a {
+    color: bisque;
 }
 
 
- @keyframes tituloAnimacion{
-    0%{
-        background-color: rgb(180, 178, 178);
-    }
-    25%{
-        background-color: rgb(190, 178, 178);
-    }
-    50%{
-        background-color: rgb(200, 178, 178);
-    }
-
-    75%{
-        background-color: rgb(210, 178, 178);
-    }
-
-    100%{
-        background-color: rgb(220, 178, 178);
-    }
-
-}   
-
-@keyframes girando{
+@keyframes tituloAnimacion {
     0% {
-        transform:rotatex(0deg)
-    }
-    5% {
-        transform:rotatex(20deg)
-    }
-
-    10% {
-        transform:rotatex(40deg)
-    }
-
-    15% {
-        transform:rotatex(60deg)
-
-    }
-    20% {
-        transform:rotatex(80deg)
+        background-image: linear-gradient(0deg, rgba(178, 180, 180, 1) 0%, rgba(246, 216, 152, 1) 100%);
+        /* background-color:  rgb(178,180,180); */
     }
 
     25% {
-        transform:rotatex(100deg)
-    }
-    30% {
-        transform:rotatex(120deg)
-    }
-    35% {
-        transform:rotatex(140deg)
-    }
-    40% {
-        transform:rotatex(160deg)
-    }
-    45% {
-        transform:rotatex(180deg)
+        background-image: linear-gradient(0deg, rgba(178, 180, 180, 1) 0%, rgba(246, 216, 152, 1) 100%);
+        opacity: 0.5;
     }
 
     50% {
-        transform:rotatex(200deg)
+        background-image: linear-gradient(0deg, rgba(178, 180, 180, 1) 0%, rgba(246, 216, 152, 1) 100%);
+        opacity: 0.7;
+    }
+
+    75% {
+        background-image: linear-gradient(0deg, rgba(178, 180, 180, 1) 0%, rgba(246, 216, 152, 1) 100%);
+        opacity: 0.8;
+    }
+
+    100% {
+        background-image: linear-gradient(0deg, rgba(178, 180, 180, 1) 0%, rgba(246, 216, 152, 1) 100%);
+        opacity: 0.9;
+    }
+
+}
+
+@keyframes girando {
+    0% {
+        transform: rotatex(0deg)
+    }
+
+    5% {
+        transform: rotatex(20deg)
+    }
+
+    10% {
+        transform: rotatex(40deg)
+    }
+
+    15% {
+        transform: rotatex(60deg)
+    }
+
+    20% {
+        transform: rotatex(80deg)
+    }
+
+    25% {
+        transform: rotatex(100deg)
+    }
+
+    30% {
+        transform: rotatex(120deg)
+    }
+
+    35% {
+        transform: rotatex(140deg)
+    }
+
+    40% {
+        transform: rotatex(160deg)
+    }
+
+    45% {
+        transform: rotatex(180deg)
+    }
+
+    50% {
+        transform: rotatex(200deg)
     }
 
     60% {
-        transform:rotatex(220deg)
+        transform: rotatex(220deg)
     }
+
     65% {
-        transform:rotatex(240deg)
+        transform: rotatex(240deg)
     }
+
     70% {
-        transform:rotatex(260deg)
+        transform: rotatex(260deg)
     }
+
     75% {
-        transform:rotatex(280deg)
+        transform: rotatex(280deg)
     }
+
     80% {
-        transform:rotatex(300deg)
+        transform: rotatex(300deg)
     }
+
     85% {
-        transform:rotatex(320deg)
+        transform: rotatex(320deg)
     }
+
     90% {
-        transform:rotatex(340deg)
+        transform: rotatex(340deg)
     }
+
     95% {
-        transform:rotatex(360deg)
+        transform: rotatex(360deg)
     }
+
     100% {
-        transform:rotatex(380deg)
+        transform: rotatex(380deg)
     }
 
 }
