@@ -7,39 +7,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ee4c7fd476.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./img/bartender.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>cocteles</title>
 </head>
 
 <body class="body">
+    <!-- Encabezado -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Bartender</a>
+                <nav class="navbar">
+                    <div class="container">
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="./img/bartender2-removebg-preview.png" alt="" width="40" height="40">
+                        </a>
+                    </div>
+                </nav>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Cocteles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bebidas">Bebidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#accesorios">Accesorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- Fin de Encabezado -->
+    <!-- Principal  -->
     <div class="gridCoctel">
-        <!-- Encabezado -->
-        <header class="headerflex">
-            <!-- Fila con logo mas nav -->
-            <h1 class="h1flex">
-                <a href="./index.html" class="logo">
-                    <img src="./img/logobartender.png" alt="logo periodico">
-                </a>
-                <span>Coctails</span>
-            </h1>
-            <nav>
-                <ul class="menuflex">
-                    <li><a href="./index.html">BARTENDER</a></li>
-                    <li>COCTELES</li>
-                    <li><a href="./bebidas.html">BEBIDAS</a></li>
-                    <li><a href="./accesorios.html">ACCESORIOS</a></li>
-                    <li><a href="./contacto.html">CONTACTO</a></li>
-                </ul>
-            </nav>
-            <!-- Fin de logo mas nav -->
-        </header>
-        <!-- Fin de Encabezado -->
-        <!-- Principal  -->
         <!-- <article> -->
         <!--Coctel GinTonic  -->
+
         <div class="imagenCoctelGinTonic">
             <!-- <img src="./img/GinTonic.jpg" alt="Gintonic"> -->
-            <p> Solo necesitas cinco ingredientes básicos. No necesitas todo el repertorio o
+            <p> Gintonic, solo necesitas cinco ingredientes básicos. No necesitas todo el repertorio o
                 kit de coctelería de
                 casa.
                 Ginebra
@@ -59,7 +82,7 @@
         <!--Coctel KirRoyal  -->
         <div class="imagenCoctelKirRoyal">
             <!-- <img src="./img/KirRoyal.jpg" alt="KirRoyal"> -->
-            <p>Champagne Addict
+            <p>Kir Royal, Champagne Addict
                 Para hacer este trago típico de Francia, toma una copa flauta (alta y estrecha) y coloca 2
                 cdtas. de
                 crema de cassis. Luego, añádele lentamente 5 oz de champagne. Listo! Ya tenés un trago
@@ -69,7 +92,7 @@
         <!--Coctel Fitzyerald  -->
         <div class="imagenCoctelFitzgerald">
             <!-- <img src="./img/Fitzgerald.jpg" alt="Fitzgerald"> -->
-            <p>Ingredientes
+            <p>Fitzgerald, ingredientes
                 Hielo
                 2 Chorritos de Bíter
                 ¼ Parte de Zumo De Limón
@@ -98,6 +121,7 @@
                     <td>1556565432</td>
                 </tr>
             </table>
+
             <ol>
                 <i class="fa-brands fa-whatsapp"></i>
                 <i class="fa-brands fa-facebook"></i>
@@ -107,9 +131,14 @@
                 <li><a href="http://www.Instagram.com" tarjet="_blank">Instagram</a></li>
                 <li><a href="http://www.youtube.com" tarjet="_blank">youtube</a></li>
             </ol>
+
         </footer>
         <!-- Fin de pie de pagina -->
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
 </body>
 
 </html>
