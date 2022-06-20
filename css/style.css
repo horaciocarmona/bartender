@@ -4,25 +4,17 @@
     padding: 0;
 }
 
-.body{
+.body {
     background-color: rgb(163, 163, 204);
 }
 
-/* header h1 span{ 
-    margin: 20px ;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    animation-name: girando;
-    animation-duration: 5s; 
-    animation-iteration-count: infinite;   
-} */
 
-.separador{
+.separador {
     background-color: rgb(247, 236, 16);
     height: 5px;
 }
 
-.row div img{
+.row div img {
     background-size: cover;
 }
 
@@ -128,7 +120,7 @@
 
 .imagenBebidas img {
     width: 60vw;
-    height: 100vh; 
+    height: 100vh;
 }
 
 .gridIndexButton {
@@ -199,7 +191,7 @@
 
 .imagenAccesorios img {
     width: 60vw;
-    height: 100vh; 
+    height: 100vh;
 
 }
 
@@ -590,12 +582,18 @@
     background-color: rgb(163, 163, 204);
     align-items: center;
     grid-template-columns: 1.2fr 0.8fr 1.2fr 0.8fr 1.2fr 0.8fr;
-    grid-template-rows: 1fr 1fr 0.1fr;
+    grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
     grid-template-areas:
+        "tituloAccesorio tituloAccesorio tituloAccesorio tituloAccesorio tituloAccesorio tituloAccesorio "
         "imagenCopasCristal textoCopasCristal imagenCoctelera textoCoctelera imagenSetBoston textoSetBoston "
         "imagenBarraCoctelera textoBarraCoctelera imagenPortadorCoctel textoPortadorCoctel imagenSetDeluxe textoSetDeluxe "
         "footerflex footerflex footerflex footerflex footerflex footerflex ";
 
+}
+
+.tituloAccesorio {
+    grid-area: tituloAccesorio;
+    /* height: 40vh; */
 }
 
 .imagenCopasCristal {
@@ -732,12 +730,9 @@
         "footerflex";
 }
 
-.formulario {
-    grid-area: formulario;
-    display: flex;
-    max-width: 1fr;
-    margin: 20px;
-}
+/* .formulario {
+    display: flex; 
+} */
 
 
 .formulario input {
@@ -758,20 +753,44 @@
     background-color: rgb(243, 165, 165);
 }
 
+.formulario input[type=email]:hover {
+    background-color: rgb(243, 165, 165);
+}
+
+.formulario input[type=text]:hover {
+    background-color: rgb(243, 165, 165);
+}
+
+.formulario input[type=checkbox]:hover {
+    background-color: rgb(243, 165, 165);
+}
+
+#botonEnvio:hover {
+    background-color: brown;
+}
+
+.formulario input[type=radio]:hover {
+    background-color: rgb(243, 165, 165);
+}
+
+.formulario select:hover {
+    background-color: rgb(243, 165, 165);
+}
+
+#exampleFormControlTextarea1:hover {
+    background-color: rgb(243, 165, 165);
+}
+
 .formulario input[type=text]:focus {
-    width: 300px;
-    background-color: rgb(189, 189, 159);
+    width: 400px;
+    background-color: yellow;
 }
 
 .formulario input[type=email]:focus {
-    width: 300px;
-    background-color: rgb(189, 189, 159);
+    width: 400px;
+    background-color: yellow;
 }
 
-.formulario h3 {
-    margin: 5vw;
-    max-width: 90vw;
-}
 
 .formulario label p {
     margin: 10px;
@@ -789,7 +808,7 @@
 
 .formulario p {
     margin: 10px;
-    max-width: 90vw;
+    /* max-width: 90vw; */
 }
 
 @media(max-width:460px) {
@@ -862,6 +881,7 @@
         margin: 5px;
 
     }
+
 
     .imagenCoctelKirRoyal {
         grid-area: imagenCoctelKirRoyal;
@@ -987,8 +1007,9 @@
         background-color: rgb(243, 106, 106);
         align-items: center;
         grid-template-columns: 1fr;
-        grid-template-rows:  0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.1fr;
+        grid-template-rows: 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.1fr;
         grid-template-areas:
+            "tituloAccdesorio"
             "imagenCopasCristal"
             "textoCopasCristal"
             "imagenCoctelera"
@@ -1067,12 +1088,13 @@
         animation-duration: 5s;
         animation-iteration-count: infinite;
     }
+
     .negrita {
         color: black;
         font-size: 15px;
         /* font-style: italic;     */
     }
-    
+
 }
 
 /* fin de media query*/
