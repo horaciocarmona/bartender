@@ -7,120 +7,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ee4c7fd476.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./img/bartender.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>contacto</title>
 </head>
 
 <body class="body">
     <!-- Encabezado -->
-    <div class="gridContacto">
 
-        <header class="headerflex">
-            <!-- Fila con logo mas nav -->
-            <h1 class="h1flex">
-                <a href="./index.html" class="logo">
-                    <img src="./img/logobartender.png" alt="logo bartender">
-                </a>
-                <span>Contacto</span>
-            </h1>
-            <nav>
-                <ul class="menuflex">
-                    <li><a href="./index.html">BARTENDER</a></li>
-                    <li><a href="./cocteles.html">COCTELES</a></li>
-                    <li><a href="./bebidas.html">BEBIDAS</a></li>
-                    <li><a href="./accesorios.html">ACCESORIOS</a></li>
-                    <li>CONTACTO</li>
-                </ul>
-            </nav>
-            <!-- Fin de logo mas nav -->
-        </header>
-        <!-- Fin de Encabezado -->
-        <!-- Principal  -->
-        <!-- <div class="formulario"> -->
-        <div class="formulario">
-            <!-- <div class="formularioflex"> -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Bartender</a>
+                <nav class="navbar">
+                    <div class="container">
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="./img/bartender2-removebg-preview.png" alt="" width="40" height="40">
+                        </a>
+                    </div>
+                </nav>
 
-            <form action="#" method="GET">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cocteles.html">Cocteles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./bebidas.html">Bebidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./accesorios.html">Accesorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-                <h3>Ingresa tus datos y nos estamos contactando por cualquier consulta</h3>
-                <input type="text" placeholder="Nombre y Apellido">
-                <input type="email" placeholder="Juan@gmail.com">
-                <label>
-                    <p>Seleccione su sexo</p>
-                    <span>Hombre</span>
-                    <input type="radio" name="sexo" value="hombre">
-                    <span>Mujer</span>
-                    <input type="radio" name="sexo" value="mujer">
-                    <span>Otro</span>
-                    <input type="radio" name="sexo" value="otro">
-                </label>
-
-                <p>Deja tu comentario</p>
-                <textarea cols="60" rows="5"></textarea>
-                <p>Ingresa tu clave</p>
-                <input type="password" placeholder="Clave">
-                <!-- <br> -->
-                <label>
-                    <input type="checkbox">
-                    <span>Suscribirme a avisos</span>
-                </label>
-                <!-- <br> -->
-                <select name="pais">
-                    <option value="seleccion">Seleccione su pais</option>
-                    <option value="argentina">Argentina</option>
-                    <option value="peru">Peru</option>
-                    <option value="colombia">Colombia</option>
-                    <option value="chile">Chile</option>
-                </select>
-                <br>
-                <input type="reset" value="Borrar todos los datos ingresados en el formulario">
-                <!-- <br> -->
-                <input type="submit" value="Enviar Informacion">
-                <p>Ingresa tus datos y nos estamos contactando por cualquier consulta</p>
-                <h2>
-                    <a href="http://wa.me/05491167373051" class="logo">
-                        <img src="./img/whatsapp.jpg" alt="Whatsapp">
-                    </a>
-                </h2>
-            </form>
-            <!-- </div> -->
-            <!-- </div> -->
+    </header>
+    <!-- Fin de Encabezado -->
+    <!-- Principal  -->
+    <div class="container" id="contacto">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mb-3">Contacto</h2>
+                <hr class="separador">
+            </div>
         </div>
-        <footer class="footerflex">
-            <h2>
-                <img src="./img/logobartender.png" alt="logo periodico">
-            </h2>
-            <span>Todos los derechos reservados Horacio Carmona 2022 ©</span>
-            <table class="table">
-                <tr>
-                    <th>correo electronico</th>
-                    <th>celular</th>
-                </tr>
-                <tr>
-                    <td>carmona_horacio@hotmail.com</td>
-                    <td>1567373051</td>
-                </tr>
-                <tr>
-                    <td>horacio.carmona@gmail.com</td>
-                    <td>1556565432</td>
-                </tr>
-            </table>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Juan Perez">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput2"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Se subscribe para recibir nueva informacion
+                    </label>
+                </div>
+                <label class="form-label mb-2">
+                    Seleccione su sexo
+                </label>
+                <div class="form-check">
 
-            <ol>
-                <i class="fa-brands fa-whatsapp"></i>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <li><a href="http://www.facebook.com" tarjet="_blank">facebook</a></li>
-                <li><a href="http://www.Instagram.com" tarjet="_blank">Instagram</a></li>
-                <li><a href="http://www.youtube.com" tarjet="_blank">youtube</a></li>
-            </ol>
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Hombre
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Mujer
+                    </label>
+                </div>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                        value="option3">
+                    <label class="form-check-label" for="exampleRadios3">
+                        No sabe
+                    </label>
+                </div>
 
-        </footer>
-        <!-- Pie de pagina -->
-        <!-- Fin de pie de pagina -->
 
+
+                <div class="mb-3 mt-5">
+                    <button type="button" class="btn btn-dark w-100 fs-4">Enviar</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.483390034464!2d-58.28344028468448!3d-34.71820797107216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32de2b407357b%3A0xe29910a019363b6c!2sMaip%C3%BA%2063%2C%20Bernal%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1655311583728!5m2!1ses!2sar"
+                    width="400" height="480" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
     </div>
+
+    <footer class="footerflex">
+        <h2>
+            <img src="./img/logobartender.png" alt="logo periodico">
+        </h2>
+        <span>Todos los derechos reservados Horacio Carmona 2022 ©</span>
+        <table class="table">
+            <tr>
+                <th>correo electronico</th>
+                <th>celular</th>
+            </tr>
+            <tr>
+                <td>carmona_horacio@hotmail.com</td>
+                <td>1567373051</td>
+            </tr>
+            <tr>
+                <td>horacio.carmona@gmail.com</td>
+                <td>1556565432</td>
+            </tr>
+        </table>
+
+        <ol>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <li><a href="http://www.facebook.com" tarjet="_blank">facebook</a></li>
+            <li><a href="http://www.Instagram.com" tarjet="_blank">Instagram</a></li>
+            <li><a href="http://www.youtube.com" tarjet="_blank">youtube</a></li>
+        </ol>
+
+    </footer>
+
+    <!-- Pie de pagina -->
+    <!-- Fin de pie de pagina -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
 </body>
 
 </html>

@@ -7,33 +7,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/bartender.png">
     <script src="https://kit.fontawesome.com/ee4c7fd476.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css/style.css">
     <title>accesorios</title>
 </head>
 
 <body class="body">
+    <!-- Encabezado -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Bartender</a>
+                <nav class="navbar">
+                    <div class="container">
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="./img/bartender2-removebg-preview.png" alt="" width="40" height="40">
+                        </a>
+                    </div>
+                </nav>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Cocteles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./bebidas.html">Bebidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Accesorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin de Encabezado -->
     <div class="gridAccesoriosVenta">
-        <!-- Encabezado -->
-        <header class="headerflex">
-            <!-- Fila con logo mas nav -->
-            <h1 class="h1flex">
-                <a href="./index.html" class="logo">
-                    <img src="./img/logobartender.png" alt="logo periodico">
-                </a>
-                <span>Accesorios</span>
-            </h1>
-            <nav>
-                <ul class="menuflex">
-                    <li><a href="./index.html">BARTENDER</a></li>
-                    <li><a href="./cocteles.html">COCTELES</a></li>
-                    <li><a href="./bebidas.html">BEBIDAS</a></li>
-                    <li>ACCESORIOS</li>
-                    <li><a href="./contacto.html">CONTACTO</a></li>
-                </ul>
-            </nav>
-            <!-- Fin de logo mas nav -->
-        </header>
-        <!-- Fin de Encabezado -->
 
         <!--Copas de cristal  -->
         <div class="imagenCopasCristal">
@@ -114,6 +136,10 @@
         </footer>
         <!-- Fin de pie de pagina -->
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
 </body>
 
 </html>

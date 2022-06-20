@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+.body{
+    background-color: rgb(163, 163, 204);
+}
 
 /* header h1 span{ 
     margin: 20px ;
@@ -13,6 +16,16 @@
     animation-duration: 5s; 
     animation-iteration-count: infinite;   
 } */
+
+.separador{
+    background-color: rgb(247, 236, 16);
+    height: 5px;
+}
+
+.row div img{
+    background-size: cover;
+}
+
 
 .negrita {
     color: black;
@@ -577,9 +590,8 @@
     background-color: rgb(163, 163, 204);
     align-items: center;
     grid-template-columns: 1.2fr 0.8fr 1.2fr 0.8fr 1.2fr 0.8fr;
-    grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
+    grid-template-rows: 1fr 1fr 0.1fr;
     grid-template-areas:
-        "headerflex headerflex headerflex headerflex headerflex headerflex "
         "imagenCopasCristal textoCopasCristal imagenCoctelera textoCoctelera imagenSetBoston textoSetBoston "
         "imagenBarraCoctelera textoBarraCoctelera imagenPortadorCoctel textoPortadorCoctel imagenSetDeluxe textoSetDeluxe "
         "footerflex footerflex footerflex footerflex footerflex footerflex ";
@@ -975,9 +987,8 @@
         background-color: rgb(243, 106, 106);
         align-items: center;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.1fr;
+        grid-template-rows:  0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.1fr;
         grid-template-areas:
-            "headerflex "
             "imagenCopasCristal"
             "textoCopasCristal"
             "imagenCoctelera"
