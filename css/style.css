@@ -18,6 +18,14 @@
     background-size: cover;
 }
 
+.imagenhover:hover {
+    background-color: rgb(55, 55, 56);
+}
+
+.imagenhoveraccesorios:hover {
+    transition: .2s;
+    filter: blur(2px);
+}
 
 .negrita {
     color: black;
