@@ -442,6 +442,8 @@
     /* width: 100vw; */
     /* width: 4fr;  */
     background-color: rgb(163, 163, 204);
+    /* background-color: brown; */
+
     align-items: stretch;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.1fr 1fr 0.8fr 0.1fr;
